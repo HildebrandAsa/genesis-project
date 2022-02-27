@@ -5,6 +5,7 @@
   flex-direction: row;
   margin-left: 125px;
   margin-top: 96px;
+  align-items: flex-end;
 
   &__firstdiv {
     display: flex;
@@ -17,12 +18,11 @@
   &__seconddiv {
     flex-direction: column;
     display: flex;
-    align-content: flex-end;
-    align-items: flex-start;
     width: 100%;
     max-width: 207px;
     mix-blend-mode: normal;
     opacity: 0.6;
+    margin-bottom: 10px;
   }
 }
 
@@ -38,11 +38,12 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 60px;
+  margin: 0;
 }
 
 .line {
   display: flex;
-  mix-blend-mode: normal;
+  mix-blend-mode: 700;
   opacity: 0.5;
   font-weight: 700;
   margin: 0;
@@ -54,6 +55,8 @@
   font-size: 18px;
   line-height: 23px;
   margin: 0;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
 
 .image__section {
